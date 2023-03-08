@@ -1,4 +1,4 @@
---This project focuses on fixing data quality issues such as missing data, incorrect formatting and duplicate data using SQL (MSSQL). The cleaned dataset will provide an accurate and consistent record which can be a master data source for business intelligence dashboards. 
+--This project focuses on fixing data quality issues such as missing data, incorrect formatting and duplicate data using SQL (TSQL). The cleaned dataset will provide an accurate and consistent record which can be a master data source for business intelligence dashboards. 
 --The dataset contains approx. 56.000 rows of data about housing market in Nashville, Texas, USA. Columns provide data about addresses, sales prices, building value etc. There data quality issues in this dataset are as follows:
 --1.	Sale Date is in the format “2016-03-21 00:00:00.000”. The zeros represent an invalid timestamp because of incorrect Data Type classification in source data. 
 --2.	Property address is missing several entries.
